@@ -2,8 +2,8 @@
 
 ## Instructions
 
-1. Install .NET in your machine. To check this, run `dotnet --version`
-2. This project will need an IIS site with the name and HTTP(80) binding set to `contact.hero.assesment`
+1. Install .NET 5 in your machine. To check this, run `dotnet --version`
+2. This project will need an IIS site with the name and an HTTP(80) binding set to `contact.hero.assesment`
 3. Open ContactForm.sln with Visual Studio 2019. This project was built using Visual Studio 2019 as it's the only one with support for .NET 5 at the moment.
 4. Build the solution and publish using the IISProfile.pubxml publish profile
 5. Browse to `http://contact.hero.assessment` and you should the site.
