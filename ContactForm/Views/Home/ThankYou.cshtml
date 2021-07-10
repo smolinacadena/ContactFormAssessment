@@ -1,0 +1,29 @@
+﻿@model ContactModel
+
+@{
+    ViewData["Title"] = "Thank You Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Thank You</h1>
+    <div>
+        <div>
+            <span>First Name: @Model.FirstName</span>
+        </div>
+        <div>
+            <span>Last Name: @Model.LastName</span>
+        </div>
+        <div>
+            <span>Email Address: @Model.EmailAddress</span>
+        </div>
+        <div>
+            <span>Phone Number: @Model.PhoneNumber</span>
+        </div>
+        @if (!string.IsNullOrEmpty(Model.ContactMessage))
+        {
+            <div>
+                <span>Message: @Model.ContactMessage</span>
+            </div>
+        }
+    </div>
+</div>
